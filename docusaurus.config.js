@@ -1,13 +1,13 @@
 module.exports = {
-  title: "Uniswap",
+  title: "Quickswap",
   tagline: "Documentation and Guides",
   url: "https://docs.uniswap.org/",
   baseUrl: "/",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
-  favicon: "img/favicon.png",
-  organizationName: "Uniswap", // Usually your GitHub org/user name.
-  projectName: "Uniswap-docs", // Usually your repo name.
+  favicon: "img/logo_circle.png",
+  organizationName: "Quickswap", // Usually your GitHub org/user name.
+  projectName: "quickswap-docs", // Usually your repo name.
   themeConfig: {
     // hideableSidebar: true,
     prism: {
@@ -26,37 +26,17 @@ module.exports = {
       contextualSearch: true,
     },
     navbar: {
-      title: "Uniswap Documentation",
+      title: "Quickswap Documentation",
       logo: {
-        alt: "Uniswap Unicorn",
-        src: "img/uni_dark_icon.svg",
+        alt: "Quickswap Dragon",
+        src: "img/quickswaplogo.png",
       },
-      items: [
+      items: [                
         {
-          label: "Protocol",
-          position: "left",
-          to: "/",
-        },
-        {
-          label: "SDK",
-          position: "left",
-          to: "SDK/",
-        },
-        {
-          label: "Whitepaper",
-          to: "https://uniswap.org/whitepaper-v3.pdf",
-          position: "right",
-        },
-        {
-          href: "https://github.com/uniswap/uniswap-docs",
+          href: "https://github.com/QuickSwap/quickswap-docs",
           label: "GitHub",
           position: "right",
-        },
-        {
-          href: "https://github.com/Uniswap/uniswap-v3-sdk",
-          label: "SDK",
-          position: "right",
-        },
+        },        
         {
           type: "docsVersionDropdown",
 
@@ -83,11 +63,11 @@ module.exports = {
             },
             {
               label: "App",
-              href: "https://app.uniswap.org/",
+              href: "https://quickswap.exchange/",
             },
             {
               label: "Analytics",
-              href: "https://info.uniswap.org/home",
+              href: "https://info.quickswap.exchange/home",
             },
           ],
         },
@@ -101,11 +81,11 @@ module.exports = {
             },
             {
               label: "GitHub | Protocol",
-              href: "https://github.com/uniswap",
+              href: "https://github.com/QuickSwap/quickswap-core",
             },
             {
               label: "GitHub | SDK",
-              href: "https://github.com/Uniswap/uniswap-v3-sdk",
+              href: "https://github.com/QuickSwap/QuickSwap-sdk",
             },
           ],
         },
@@ -139,11 +119,11 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          path: "docs/V3",
+          path: "docs/V2",
           routeBasePath: "/",
-          sidebarPath: require.resolve("./V3sidebars.js"),
+          sidebarPath: require.resolve("./V2sidebars.js"),
           includeCurrentVersion: false,
-          editUrl: "https://github.com/uniswap/uniswap-docs/tree/main/",
+          editUrl: "https://github.com/QuickSwap/quickswap-docs/tree/main/",
         },
 
         theme: {
