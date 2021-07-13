@@ -1,0 +1,1 @@
+(self.webpackChunkquickswap=self.webpackChunkquickswap||[]).push([[5256],{5256:function(s,u,c){"use strict";c.r(u)}}]);
