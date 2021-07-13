@@ -1,13 +1,13 @@
 module.exports = {
   title: "Quickswap",
   tagline: "Documentation and Guides",
-  url: "https://docs.uniswap.org/",
-  baseUrl: "/",
+  url: "https://quickswap.github.io/",
+  baseUrl: "/quickswap-docs/",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
   favicon: "img/logo_circle.png",
   organizationName: "Quickswap", // Usually your GitHub org/user name.
-  projectName: "quickswap-docs", // Usually your repo name.
+  projectName: "quickswap-docs", // Usually your repo name.  
   themeConfig: {
     // hideableSidebar: true,
     prism: {
@@ -59,7 +59,7 @@ module.exports = {
           items: [
             {
               label: "Home",
-              href: "https://uniswap.org/",
+              href: "https://quickswap.exchange/",
             },
             {
               label: "App",
@@ -74,11 +74,7 @@ module.exports = {
         {
           title: "Developers",
           items: [
-            {
-              label: "Bug Bounty",
-              href:
-                "https://github.com/Uniswap/uniswap-v3-periphery/blob/main/bug-bounty.md",
-            },
+            
             {
               label: "GitHub | Protocol",
               href: "https://github.com/QuickSwap/quickswap-core",
@@ -93,20 +89,16 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Governance",
-              href: "https://gov.uniswap.org/",
-            },
-            {
-              label: "Discord",
-              href: "https://discord.gg/FCfyBSbCU5",
+              label: "Telegram",
+              href: "https://t.me/QuickSwapDEX",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/Uniswap",
+              href: "https://twitter.com/QuickswapDEX",
             },
             {
               label: "Blog",
-              href: "https://uniswap.org/blog/",
+              href: "https://quickswap-layer2.medium.com/",
             },
           ],
         },

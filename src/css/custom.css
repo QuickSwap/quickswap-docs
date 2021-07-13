@@ -69,9 +69,17 @@ html[data-theme="light"] {
   background-repeat: no-repeat;
   background-image: radial-gradient(
     50% 50% at 50% 50%,
+    rgba(33, 114, 229, 0.1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  
+  /*
+  background-image: radial-gradient(
+    50% 50% at 50% 50%,
     rgba(255, 0, 122, 0.1) 0%,
     rgba(255, 255, 255, 0) 100%
   );
+  */
 
   /* any other colors you wish to overwrite */
 }
