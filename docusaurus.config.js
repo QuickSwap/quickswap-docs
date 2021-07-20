@@ -1,7 +1,7 @@
 module.exports = {
   title: "Quickswap",
   tagline: "Documentation and Guides",
-  url: "https://quickswap.github.io/",
+  url: "http://docs.quickswap.exchange/",
   baseUrl: "/quickswap-docs/",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
