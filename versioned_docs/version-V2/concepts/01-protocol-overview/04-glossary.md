@@ -10,12 +10,12 @@ An automated market maker is a smart contract on Ethereum that holds on-chain li
 
 ### Constant product formula
 
-The automated market making algorithm used by Uniswap.
+The automated market making algorithm used by Quickswap.
 See [x\*y=k](#x--y--k).
 
 ### ERC20
 
-ERC20 tokens are fungibile tokens on Ethereum. Uniswap supports all standard ERC20 implementations.
+ERC20 tokens are fungibile tokens on Ethereum and Polygon. Quickswap supports all standard ERC20 implementations.
 
 ### Factory
 
@@ -23,7 +23,7 @@ A smart contract that deploys a unique smart contract for any ERC20/ERC20 tradin
 
 ### Pair
 
-A smart contract deployed from the Uniswap V2 Factory that enables trading between two ERC20 tokens.
+A smart contract deployed from the Quickswap V2 Factory that enables trading between two ERC20 tokens.
 
 ### Pool
 
@@ -35,7 +35,7 @@ A liquidity provider is someone who deposits an equivalent value of two ERC20 to
 
 ### Mid price
 
-The price between what users can buy and sell tokens at a given moment. In Uniswap this is the ratio of the two ERC20 token reserves.
+The price between what users can buy and sell tokens at a given moment. In Quickswap this is the ratio of the two ERC20 token reserves.
 
 ### Price impact
 
@@ -47,11 +47,11 @@ The amount the price moves in a trading pair between when a transaction is submi
 
 ### Core
 
-Smart contracts that are essential for Uniswap to exist. Upgrading to a new version of core would require a liquidity migration.
+Smart contracts that are essential for Quickswap to exist. Upgrading to a new version of core would require a liquidity migration.
 
 ### Periphery
 
-External smart contracts that are useful, but not required for Uniswap to exist. New periphery contracts can always be deployed without migrating liquidity.
+External smart contracts that are useful, but not required for Quickswap to exist. New periphery contracts can always be deployed without migrating liquidity.
 
 ### Flash swap
 

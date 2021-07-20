@@ -4,7 +4,7 @@ title: Smart contracts
 tags: protocol-overview, documentation
 ---
 
-Uniswap V2 is a binary smart contract system. [Core](#core) contracts provide fundamental safety guarantees for all parties interacting with Uniswap. [Periphery](#periphery) contracts interact with one or more core contracts but are not themselves part of the core.
+Quickswap V2 is a binary smart contract system. [Core](#core) contracts provide fundamental safety guarantees for all parties interacting with Quickswap. [Periphery](#periphery) contracts interact with one or more core contracts but are not themselves part of the core.
 
 # Core
 
@@ -30,7 +30,7 @@ Pairs have two primary purposes: serving as automated market makers and keeping 
 
 [Source code](https://github.com/Uniswap/uniswap-v2-periphery)
 
-The periphery is a constellation of smart contracts designed to support domain-specific interactions with the core. Because of Uniswap's permissionless nature, the contracts described below have no special privileges, and are in fact only a small subset of the universe of possible periphery-like contracts. However, they are useful examples of how to safely and efficiently interact with Uniswap V2.
+The periphery is a constellation of smart contracts designed to support domain-specific interactions with the core. Because of Quickswap's permissionless nature, the contracts described below have no special privileges, and are in fact only a small subset of the universe of possible periphery-like contracts. However, they are useful examples of how to safely and efficiently interact with Quickswap V2.
 
 ## Library
 
@@ -46,15 +46,15 @@ The router, which uses the library, fully supports all the basic requirements of
 
 # Design Decisions
 
-The following sections describe some of the notable design decisions made in Uniswap V2. These are safe to skip unless you're interested in gaining a deep technical understanding of how V2 works under the hood, or writing smart contract integrations!
+The following sections describe some of the notable design decisions made in Quickswap V2. These are safe to skip unless you're interested in gaining a deep technical understanding of how V2 works under the hood, or writing smart contract integrations!
 
 ## Sending Tokens
 
 Typically, smart contracts which need tokens to perform some functionality require would-be interactors to first make an approval on the token contract, then call a function that in turn calls transferFrom on the token contract. This is _not_ how V2 pairs accept tokens. Instead, pairs check their token balances at the _end_ of every interaction. Then, at the beginning of the _next_ interaction, current balances are differenced against the stored values to determine the amount of tokens that were sent by the current interactor. See the <a href='/whitepaper.pdf' target='_blank' rel='noopener noreferrer'>whitepaper</a> for a justification of why this is the case, but the takeaway is that **tokens must be transferred to the pair before calling any token-requiring method** (the one exception to this rule is [Flash Swaps](../02-core-concepts/03-flash-swaps.md).
 
-## WETH
+## MATIC
 
-Unlike Uniswap V1 pools, V2 pairs do not support ETH directly, so ETH⇄ERC-20 pairs must be emulated with WETH. The motivation behind this choice was to remove ETH-specific code in the core, resulting in a leaner codebase. End users can be kept fully ignorant of this implementation detail, however, by simply wrapping/unwrapping ETH in the periphery.
+Matic⇄ERC-20 pairs must be emulated with WMATIC. The motivation behind this choice was to remove Matic-specific code in the core, resulting in a leaner codebase. End users can be kept fully ignorant of this implementation detail, however, by simply wrapping/unwrapping Matic in the periphery.
 
 The router fully supports interacting with any WETH pair via ETH.
 
