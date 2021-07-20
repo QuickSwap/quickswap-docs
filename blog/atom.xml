@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://docs.quickswap.exchange/blog</id>
+    <id>https://quickswap.github.io/blog</id>
     <title>Quickswap Blog</title>
     <updated>2015-10-25T23:29:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://docs.quickswap.exchange/blog"/>
+    <link rel="alternate" href="https://quickswap.github.io/blog"/>
     <subtitle>Quickswap Blog</subtitle>
-    <icon>http://docs.quickswap.exchange/img/logo_circle.png</icon>
+    <icon>https://quickswap.github.io/img/logo_circle.png</icon>
 </feed>
