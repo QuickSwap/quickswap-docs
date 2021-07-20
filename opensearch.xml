@@ -4,8 +4,8 @@
   <ShortName>Quickswap</ShortName>
   <Description>Search Quickswap</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">http://docs.quickswap.exchange/quickswap-docs/img/logo_circle.png</Image>
-  <Url type="text/html" method="get" template="http://docs.quickswap.exchange//quickswap-docs/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="http://docs.quickswap.exchange//quickswap-docs/opensearch.xml" />
-  <moz:SearchForm>http://docs.quickswap.exchange//quickswap-docs/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">http://docs.quickswap.exchange/img/logo_circle.png</Image>
+  <Url type="text/html" method="get" template="http://docs.quickswap.exchange//search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="http://docs.quickswap.exchange//opensearch.xml" />
+  <moz:SearchForm>http://docs.quickswap.exchange//</moz:SearchForm>
 </OpenSearchDescription>
