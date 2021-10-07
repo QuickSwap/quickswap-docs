@@ -26,7 +26,7 @@ const token = new Token(ChainId.MAINNET, '0xc0FFee000000000000000000000000000000
 chainId: ChainId
 ```
 
-See <Link to='/docs/v2/SDK/other-exports/#chainid'>ChainId</Link>.
+See [ChainId](/SDK/other-exports/#chainid).
 
 ## address
 

@@ -31,7 +31,7 @@ const trade = new Trade(NOT_TO_HOT, new TokenAmount(NOT, '1000000000000000'), Tr
 route: Route
 ```
 
-The <Link to='/docs/v2/SDK/route#path'>path</Link> property of the route should be passed as the path parameter to router functions.
+The [path](/SDK/route#path) property of the route should be passed as the path parameter to router functions.
 
 ## tradeType
 

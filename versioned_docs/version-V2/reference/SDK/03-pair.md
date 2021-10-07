@@ -29,7 +29,7 @@ const pair = new Pair(new TokenAmount(HOT, '2000000000000000000'), new TokenAmou
 getAddress(tokenA: Token, tokenB: Token): string
 ```
 
-Computes the pair address for the passed <Link to='/docs/v2/SDK/token'>Token</Link>s. See <Link to='/docs/v2/javascript-SDK/getting-pair-addresses/'>Pair Addresses</Link>.
+Computes the pair address for the passed [Token](/SDK/token)s. See [Pair Addresses](/javascript-SDK/getting-pair-addresses/).
 
 # Properties
 
@@ -39,7 +39,7 @@ Computes the pair address for the passed <Link to='/docs/v2/SDK/token'>Token</Li
 liquidityToken: Token
 ```
 
-A Token representing the liquidity token for the pair. See <Link to='/docs/v2/smart-contracts/pair-erc-20'>Pair (ERC-20)</Link>.
+A Token representing the liquidity token for the pair. See [Pair (ERC-20)](/smart-contracts/pair-erc-20).
 
 ## token0
 
@@ -47,7 +47,7 @@ A Token representing the liquidity token for the pair. See <Link to='/docs/v2/sm
 token0: Token
 ```
 
-See <Link to='/docs/v2/smart-contracts/pair/#token0'></Link>.
+See [token0](/smart-contracts/pair/#token0).
 
 ## token1
 
@@ -55,7 +55,7 @@ See <Link to='/docs/v2/smart-contracts/pair/#token0'></Link>.
 token1: Token
 ```
 
-See <Link to='/docs/v2/smart-contracts/pair/#token1'></Link>.
+See [token1](/smart-contracts/pair/#token1).
 
 ## reserve0
 

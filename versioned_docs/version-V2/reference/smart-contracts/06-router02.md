@@ -29,7 +29,7 @@ Returns [factory address](../smart-contracts/01-factory.md#address).
 function WETH() external pure returns (address);
 ```
 
-Returns the [canonical WETH address](https://blog.0xproject.com/canonical-weth-a9aa7d0279dd) on the Ethereum [mainnet](https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2), or the [Ropsten](https://ropsten.etherscan.io/address/0xc778417e063141139fce010982780140aa0cd5ab), [Rinkeby](https://rinkeby.etherscan.io/address/0xc778417e063141139fce010982780140aa0cd5ab), [Görli](https://goerli.etherscan.io/address/0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6), or [Kovan](https://kovan.etherscan.io/address/0xd0a1e359811322d97991e03f863a0c30c2cf029c) testnets.
+Returns the [canonical WETH address](https://blog.0xproject.com/canonical-weth-a9aa7d0279dd) on Polygon [mainnet](https://polygonscan.com/address/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270).
 
 ## quote
 
@@ -207,7 +207,7 @@ function removeLiquidityWithPermit(
 ) external returns (uint amountA, uint amountB);
 ```
 
-Removes liquidity from an ERC-20⇄ERC-20 pool without pre-approval, thanks to <Link to='/docs/v2/smart-contracts/pair-erc-20/#permit'>permit</Link>.
+Removes liquidity from an ERC-20⇄ERC-20 pool without pre-approval, thanks to [permit](/smart-contracts/pair-erc-20/#permit).
 
 | Name       | Type      |                                                                                       |
 | :--------- | :-------- | :------------------------------------------------------------------------------------ |
@@ -240,7 +240,7 @@ function removeLiquidityETHWithPermit(
 ) external returns (uint amountToken, uint amountETH);
 ```
 
-Removes liquidity from an ERC-20⇄WETTH pool and receive ETH without pre-approval, thanks to <Link to='/docs/v2/smart-contracts/pair-erc-20/#permit'>permit</Link>.
+Removes liquidity from an ERC-20⇄WETTH pool and receive ETH without pre-approval, thanks to [permit](/smart-contracts/pair-erc-20/#permit).
 
 | Name           | Type      |                                                                                      |
 | :------------- | :-------- | :----------------------------------------------------------------------------------- |

@@ -16,7 +16,7 @@ Thanks to some [fancy footwork in the factory](https://github.com/Uniswap/uniswa
 
 |                        |                                                                                 |
 | :--------------------- | :------------------------------------------------------------------------------ |
-| `address`              | The <Link to='/docs/v2/smart-contracts/factory/#address'>factory address</Link> |
+| `address`              | The [factory address](/smart-contracts/factory/#address) |
 | `salt`                 | `keccak256(abi.encodePacked(token0, token1))`                                   |
 | `keccak256(init_code)` | `0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f`            |
 
