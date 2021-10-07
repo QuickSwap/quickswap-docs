@@ -11,7 +11,7 @@ Because routers are stateless and do not hold token balances, they can be replac
 
 # Address
 
-`UniswapV2Router02` is deployed at `0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D` on the Ethereum [mainnet](https://etherscan.io/address/0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D), and the [Ropsten](https://ropsten.etherscan.io/address/0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D), [Rinkeby](https://rinkeby.etherscan.io/address/0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D), [Görli](https://goerli.etherscan.io/address/0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D), and [Kovan](https://kovan.etherscan.io/address/0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D) testnets. It was built from commit [6961711](https://github.com/Uniswap/uniswap-v2-periphery/tree/69617118cda519dab608898d62aaa79877a61004).
+`UniswapV2Router02` is deployed at `0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff` on Polygon.
 
 # Read-Only Functions
 

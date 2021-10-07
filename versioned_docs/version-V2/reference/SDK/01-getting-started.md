@@ -5,8 +5,8 @@ tags: sdk, documentation
 ---
 
 The pages that follow contain technical reference information on the Uniswap SDK.
-Looking for a <Link to='/docs/v2/javascript-SDK/quick-start'>quickstart</Link> instead? 
-You may also want to jump into a <Link to='/docs/v2/javascript-SDK/fetching-data'>guide</Link>, 
+Looking for a [quickstart](/guides/javascript-sdk/01-quick-start) instead? 
+You may also want to jump into a [guide](/guides/javascript-sdk/02-fetching-data), 
 which offers a friendlier introduction to the SDK!
 
 The SDK is written in TypeScript, has a robust test suite, performs arbitrary precision arithmetic, 
@@ -24,7 +24,7 @@ The second concern is precision loss due to, for example, chained price ratio ca
 To address this issue, all math operations are performed as fraction operations, ensuring arbitrary precision up 
 until the point that values are rounded for display purposes, or truncated to fit inside a fixed bit width.
 
-The SDK works for all chains on which the <Link to='/docs/v2/smart-contracts/factory#address'>factory</Link> is deployed.
+The SDK works for all chains on which the [factory](reference/smart-contracts/01-factory) is deployed.
 
 ## Code
 

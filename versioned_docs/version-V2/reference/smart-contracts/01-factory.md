@@ -7,11 +7,11 @@ tags: smart-contracts, documentation
 
 ## Code
 
-[`UniswapV2Factory.sol`](https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/UniswapV2Factory.sol)
+[`UniswapV2Factory.sol`](https://polygonscan.com/address/0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32)
 
 # Address
 
-`UniswapV2Factory` is deployed at `0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f` on the Ethereum [mainnet](https://etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f), and the [Ropsten](https://ropsten.etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f), [Rinkeby](https://rinkeby.etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f), [Görli](https://goerli.etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f), and [Kovan](https://kovan.etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f) testnets. It was built from commit [8160750](https://github.com/Uniswap/uniswap-v2-core/tree/816075049f811f1b061bca81d5d040b96f4c07eb).
+`UniswapV2Factory` is deployed at `0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32` on the Polygon [mainnet](https://polygonscan.com/address/0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32).
 
 # Events
 
@@ -37,7 +37,7 @@ function getPair(address tokenA, address tokenB) external view returns (address 
 Returns the address of the pair for `tokenA` and `tokenB`, if it has been created, else `address(0)` (`0x0000000000000000000000000000000000000000`).
 
 - `tokenA` and `tokenB` are interchangeable.
-- Pair addresses can also be calculated deterministically, see <Link to='/docs/v2/javascript-SDK/getting-pair-addresses/'>Pair Addresses</Link>.
+- Pair addresses can also be calculated deterministically.
 
 ## allPairs
 
@@ -63,7 +63,7 @@ Returns the total number of pairs created through the factory so far.
 function feeTo() external view returns (address);
 ```
 
-See <Link to='/docs/v2/advanced-topics/fees/#protocol-charge-calculation'>Protocol Charge Calculation</Link>.
+See [Protocol Charge Calculation](https://docs.quickswap.exchange/concepts/advanced-topics/01-fees).
 
 ## feeToSetter
 

@@ -21,7 +21,7 @@ One benefit of an iframe integration is that the your site will automatically ke
 # Example
 
 ```
-iframe src="https://app.uniswap.org/#/swap?exactField=input&exactAmount=10&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f"  height="660px"   width="100%"
+iframe src="https://quickswap.exchange/#/swap?exactField=input&exactAmount=10&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f"  height="660px"   width="100%"
   style="
     border: 0;
     margin: 0 auto;

@@ -19,7 +19,7 @@ As an example, let's try to represent DAI in a format the SDK can work with. To 
 
 The first two pieces of data — **chainId** and **token address** — must be provided by us. Thinking about it, this makes sense, as there's really no other way to unambiguously identify a token.
 
-So, in the case of DAI, we know that the **chainId** is `1` (we're on mainnet), and the **token address** is `0x6B175474E89094C44Da98b954EedeAC495271d0F`. Note that it's very important to externally verify token addresses. Don't use addresses from sources you don't trust!
+So, in the case of DAI, we know that the **chainId** is `1` (we're on mainnet), and the **token address** is `0x8f3cf7ad23cd3cadbd9735aff958023239c6a063`. Note that it's very important to externally verify token addresses. Don't use addresses from sources you don't trust!
 
 ## Required Data
 
