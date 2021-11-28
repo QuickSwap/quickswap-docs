@@ -32,4 +32,3 @@ To see how token swaps work in practice, and to walk through the lifecycle of a 
 
 Ultimately, of course, the Quickswap protocol is just smart contract code running on Ethereum. To understand how they work, head over to [Smart Contracts](../../reference/smart-contracts/01-factory.md)
 
-test
