@@ -5,7 +5,7 @@ tags: protocol-overview, documentation
 related: '/docs/v2/core-concepts/pools'
 ---
 
-![](./images/participants.jpg)
+![](./images/Ecosystem-Participants.png)
 
 The Quickswap ecosystem is primarily comprised of three types of users: liquidity providers, traders, and developers. Liquidity providers are incentivized to contribute [ERC-20](https://eips.ethereum.org/EIPS/eip-20) tokens to common liquidity pools. Traders can swap these tokens for one another for a fixed [0.30% fee](../03-advanced-topics/01-fees.md) (which goes to liquidity providers). Developers can integrate directly with Quickswap smart contracts to power new and exciting interactions with tokens, trading interfaces, retail experiences, and more.
 
