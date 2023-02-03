@@ -3,7 +3,7 @@ title: Pair (ERC-20)
 tags: smart-contracts, documentation
 ---
 
-This documentation covers ERC-20 functionality for denominating pool tokens. For Uniswap-specific functionality, see [Pair](./smart-contracts/pair).
+This documentation covers ERC-20 functionality for denominating pool tokens. For Uniswap-specific functionality, see [Pair](./02-pair.md).
 
 # Code
 
@@ -25,7 +25,7 @@ Emitted each time an approval occurs via [approve](#approve) or [permit](#permit
 event Transfer(address indexed from, address indexed to, uint value);
 ```
 
-Emitted each time a transfer occurs via [transfer](#transfer-1), [transferFrom](#transferfrom), [mint](../smart-contracts/02-pair.md#mint-1), or [burn](../smart-contracts/02-pair.md#burn-1).
+Emitted each time a transfer occurs via [transfer](#transfer-1), [transferFrom](#transferfrom), [mint](./02-pair.md#mint-1), or [burn](./02-pair.md#burn-1).
 
 # Read-Only Functions
 
@@ -142,7 +142,7 @@ function permit(address owner, address spender, uint value, uint deadline, uint8
 
 Sets the allowance for a spender where approval is granted via a signature.
 
-- See [Using Permit](../../guides/smart-contract-integration/07-supporting-meta-transactions.md).
+- See [Using Permit](../../../guides/smart-contract-integration/07-supporting-meta-transactions.md).
 - Emits [Approval](#approval).
 
 # Interface
