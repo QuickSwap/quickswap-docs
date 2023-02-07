@@ -25,7 +25,7 @@ Sorts token addresses.
 function pairFor(address factory, address tokenA, address tokenB) internal pure returns (address pair);
 ```
 
-Calculates the address for a pair without making any external calls (see [Pair Addresses](../../guides/javascript-sdk/05-getting-pair-addresses.md).
+Calculates the address for a pair without making any external calls (see [Pair Addresses](../../../guides/javascript-sdk/05-getting-pair-addresses.md).
 
 ## getReserves
 
@@ -33,7 +33,7 @@ Calculates the address for a pair without making any external calls (see [Pair A
 function getReserves(address factory, address tokenA, address tokenB) internal view returns (uint reserveA, uint reserveB);
 ```
 
-Calls [getReserves](../smart-contracts/02-pair.md#getreserves) on the pair for the passed tokens, and returns the results sorted in the order that the parameters were passed in.
+Calls [getReserves](./02-pair.md#getreserves) on the pair for the passed tokens, and returns the results sorted in the order that the parameters were passed in.
 
 ## quote
 
@@ -43,7 +43,7 @@ function quote(uint amountA, uint reserveA, uint reserveB) internal pure returns
 
 Given some asset amount and reserves, returns an amount of the other asset representing equivalent value.
 
-- Useful for calculating optimal token amounts before calling [mint](../smart-contracts/02-pair.md#mint-1).
+- Useful for calculating optimal token amounts before calling [mint](./02-pair.md#mint-1).
 
 ## getAmountOut
 
@@ -73,7 +73,7 @@ function getAmountsOut(uint amountIn, address[] memory path) internal view retur
 
 Given an _input_ asset amount and an array of token addresses, calculates all subsequent maximum _output_ token amounts by calling [getReserves](#getreserves) for each pair of token addresses in the path in turn, and using these to call [getAmountOut](#getamountout).
 
-- Useful for calculating optimal token amounts before calling [swap](../smart-contracts/02-pair.md#swap-1).
+- Useful for calculating optimal token amounts before calling [swap](./02-pair.md#swap-1).
 
 ## getAmountsIn
 
@@ -83,4 +83,4 @@ function getAmountsIn(uint amountOut, address[] memory path) internal view retur
 
 Given an _output_ asset amount and an array of token addresses, calculates all preceding minimum _input_ token amounts by calling [getReserves](#getreserves) for each pair of token addresses in the path in turn, and using these to call [getAmountIn](#getamountin).
 
-- Useful for calculating optimal token amounts before calling [swap](../smart-contracts/02-pair.md#swap-1).
+- Useful for calculating optimal token amounts before calling [swap](./02-pair.md#swap-1).

@@ -21,7 +21,7 @@ Because routers are stateless and do not hold token balances, they can be replac
 function factory() external pure returns (address);
 ```
 
-Returns [factory address](../smart-contracts/01-factory.md#address).
+Returns [factory address](./01-factory.md#address).
 
 ## WETH
 
@@ -33,15 +33,15 @@ Returns the [canonical WETH address](https://blog.0xproject.com/canonical-weth-a
 
 ## quote
 
-See [quote](../smart-contracts/04-library.md#quote).
+See [quote](./04-library.md#quote).
 
 ## getAmountOut
 
-See [getAmountOut](../smart-contracts/04-library.md#getamountout).
+See [getAmountOut](./04-library.md#getamountout).
 
 ## getAmountIn
 
-See [getAmountIn](../smart-contracts/04-library.md#getamountin).
+See [getAmountIn](./04-library.md#getamountin).
 
 ## getAmountsOut
 
@@ -49,7 +49,7 @@ See [getAmountIn](../smart-contracts/04-library.md#getamountin).
 function getAmountsOut(uint amountIn, address[] memory path) public view returns (uint[] memory amounts);
 ```
 
-See [getAmountsOut](../smart-contracts/04-library.md#getamountsout).
+See [getAmountsOut](./04-library.md#getamountsout).
 
 ## getAmountsIn
 
@@ -57,7 +57,7 @@ See [getAmountsOut](../smart-contracts/04-library.md#getamountsout).
 function getAmountsIn(uint amountOut, address[] memory path) public view returns (uint[] memory amounts);
 ```
 
-See [getAmountsIn](../smart-contracts/04-library.md#getamountsin).
+See [getAmountsIn](./04-library.md#getamountsin).
 
 # State-Changing Functions
 
@@ -207,7 +207,7 @@ function removeLiquidityWithPermit(
 ) external returns (uint amountA, uint amountB);
 ```
 
-Removes liquidity from an ERC-20⇄ERC-20 pool without pre-approval, thanks to [permit](/smart-contracts/pair-erc-20/#permit).
+Removes liquidity from an ERC-20⇄ERC-20 pool without pre-approval, thanks to [permit](./03-pair-erc-20.md#permit).
 
 | Name       | Type      |                                                                                       |
 | :--------- | :-------- | :------------------------------------------------------------------------------------ |
@@ -240,7 +240,7 @@ function removeLiquidityETHWithPermit(
 ) external returns (uint amountToken, uint amountETH);
 ```
 
-Removes liquidity from an ERC-20⇄WETTH pool and receive ETH without pre-approval, thanks to [permit](/smart-contracts/pair-erc-20/#permit).
+Removes liquidity from an ERC-20⇄WETTH pool and receive ETH without pre-approval, thanks to [permit](./03-pair-erc-20.md#permit).
 
 | Name           | Type      |                                                                                      |
 | :------------- | :-------- | :----------------------------------------------------------------------------------- |
